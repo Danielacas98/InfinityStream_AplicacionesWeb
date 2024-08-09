@@ -145,3 +145,36 @@ nav ul li a:hover {
     padding: 10px;
 }
 
+/* Estilos de búsqueda */
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+#search-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #00ccff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: #00b5e2;
+}
+
