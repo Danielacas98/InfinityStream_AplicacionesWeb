@@ -22,6 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinity Stream</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="search.js"></script> 
 </head>
 <body>
     <div class="sidebar">
@@ -38,6 +39,13 @@
     </div>
 
     <div class="main-content">
+        <header>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+            </form>
+        </header>
+
         <section id="inicio" class="hero-section">
             <h1>Bienvenido a InfinityStream</h1>
             <p>Explora un mundo de entretenimiento sin fin</p>
@@ -48,7 +56,7 @@
             <div class="content-grid">
                 <div class="content-card">
                     <div class="overlay">
-                        <h3>Ver Pelicula</h3>
+                        <h3>Ver Pelicula</h3> <!--titulo de la pelicula-->
                     </div>
                     <img src="img/movie1.svg" alt="Película 1">
                 </div>
@@ -103,3 +111,4 @@
 
 </body>
 </html>
+
